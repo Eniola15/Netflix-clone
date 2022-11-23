@@ -1,0 +1,401 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.first {
+  background-image: url(./images/net.jpeg);
+}
+
+.image1 {
+  width: 160px;
+  margin: -10px 2px 2px 25px;
+  color: orange;
+  background-color: transparent;
+}
+
+.flex-one {
+  display: flex;
+  gap: 1000px;
+}
+
+.first {
+  border-bottom: 5px solid rgb(69, 64, 64);
+}
+
+.second-one {
+  display: flex;
+  gap: 20px;
+}
+
+#languages {
+  color: white;
+  background-color: black;
+  margin: 17px 1px 1px -40px;
+  padding: 5px;
+  border: 2px groove white;
+  border-radius: 2px;
+}
+
+.btn-1 {
+  color: white;
+  background-color: #cf3d42;
+  margin: 17px 1px 1px 1px;
+  padding: 5px;
+  border: 2px groove white;
+  border-radius: 3px;
+  width: 70px;
+}
+
+.second-div {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.second-div h1 {
+  margin: 120px 2px 0px 0px;
+  font-size: 43px;
+}
+
+.second-div p {
+  font-size: 15px;
+  font-style: bold;
+  margin: 10px;
+}
+
+#email {
+  padding: 10px;
+  margin: -10px 0px 150px 0px;
+  width: 430px;
+  height: 50px;
+}
+
+.btn-2 {
+  padding: 10px;
+  margin: 0px 0px 150px -12px;
+  background-color: rgb(235, 101, 101);
+  width: 140px;
+  height: 52px;
+}
+
+.section-2 {
+  display: flex;
+  background-color: black;
+  gap: 100px;
+  border-bottom: 5px solid rgb(69, 64, 64);
+  border-top: 4px solid gray;
+}
+
+.sub-section-2 {
+  color: white;
+  margin: 90px 0px 90px 250px;
+}
+
+.sub-section-2 h2 {
+  text-align: left;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.sub-section-2 p {
+  text-align: left;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.sub-section-3 iframe {
+  width: 350px;
+  height: 200px;
+  margin: 55px 0px 2px 2px;
+}
+
+.section-3 {
+  display: flex;
+  background-color: black;
+  gap: 1px;
+  border-bottom: 5px solid rgb(69, 64, 64);
+}
+
+.sub-section-a {
+  color: white;
+  margin: 90px 0px 90px 250px;
+}
+
+.sub-section-b h2 {
+  text-align: left;
+  font-weight: normal;
+  color: white;
+  margin: 200px 0px 9px 80px;
+  font-size: 30px;
+}
+
+.sub-section-b p {
+  text-align: left;
+  font-weight: normal;
+  color: white;
+  margin: 0px 0px 9px 80px;
+  font-size: 20px;
+}
+
+.sub-section-a iframe {
+  width: 350px;
+  height: 300px;
+  margin: -1px 0px 2px 2px;
+}
+
+.section-four {
+  display: flex;
+  background-color: black;
+  gap: 2px;
+  border-bottom: 5px solid rgb(69, 64, 64);
+}
+
+.sub-section-4 {
+  text-align: center;
+  margin: 50px 0px 90px 250px;
+}
+
+.sub-section-4 p {
+  color: white;
+  text-align: left;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 35px 100px 50px 3px;
+}
+
+.section-four h2 {
+  color: white;
+  text-align: left;
+  font-weight: normal;
+  margin-top: 130px;
+  margin-bottom: -20px;
+  font-size: 35px;
+}
+
+.sub-section-44 img {
+  width: 80%;
+  margin: 60px 10px 20px 0px;
+}
+
+.section-five {
+  display: flex;
+  background-color: black;
+  gap: 10px;
+  border-bottom: 5px solid rgb(69, 64, 64);
+}
+
+.section-55 {
+  text-align: center;
+  margin: 50px 0px 90px 250px;
+}
+
+.section-55 p {
+  color: white;
+  text-align: left;
+  font-weight: normal;
+  margin: 10px 50px 0px -400px;
+  font-size: 20px;
+}
+
+.section-55 h2 {
+  color: white;
+  text-align: left;
+  font-weight: normal;
+  margin: 100px 50px 0px -400px;
+  font-size: 30px;
+}
+
+.section-5 img {
+  width: 50%;
+  margin: 20px 2px 90px 140px;
+}
+
+/** sixth page styling starts here **/
+
+.section-6 {
+  background-color: black;
+  border-top: 2px solid gray;
+}
+
+.hone {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 2px;
+}
+
+summary {
+  color: white;
+  padding: 10px;
+  border-bottom: 2px;
+}
+
+.FAQ summary,
+p {
+  font-size: 20px;
+}
+
+details > p {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 20px;
+}
+
+.FAQ {
+  box-sizing: border-box;
+  background-color: rgb(62, 62, 62);
+  width: 50%;
+  margin-left: 350px;
+  margin-bottom: 50px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh {
+  background-color: rgb(66, 64, 64);
+  color: white;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+.last-section {
+  background-color: black;
+  margin-top: -50px;
+  margin-bottom: 2px;
+  border-bottom: 5px solid rgb(69, 64, 64);
+}
+
+.last-section p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-style: normal;
+}
+.last-div {
+  display: flex;
+  gap: px;
+}
+
+.email-two {
+  margin: -40px -1px 10px 380px;
+}
+
+.btn-3 button {
+  color: white;
+  background-color: #cf3d42;
+  margin: -50px 1px -200px 1px;
+  padding: 2px;
+  border: 2px;
+  border-radius: 1px;
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  list-style-type: none;
+  gap: 80px;
+}
+
+.main-footer {
+  background-color: black;
+}
+
+.foot-one {
+  padding: 10px;
+  margin-left: 190px;
+}
+
+.foot-one li {
+  padding: 5px;
+}
+
+.foot-one a {
+  color: gray;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.foot-two {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.foot-two li {
+  padding: 5px;
+}
+
+.foot-two a {
+  color: gray;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.foot-three {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.foot-three li {
+  padding: 5px;
+}
+
+.foot-three a {
+  color: gray;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.foot-four {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.foot-four li {
+  padding: 5px;
+}
+
+.foot-four a {
+  color: gray;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.last-form select {
+  margin: 0px 205px;
+  background-color: black;
+  color: gray;
+  padding: 7px;
+}
+
+.main-footer p {
+  color: gray;
+  font-size: 12px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: -2px 200px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1450px),
+  only screen and (min-width: 550px) and (max-width: 949px),
+  only screen and (min-width: 950px) and (max-width: 1449px) {
+  html {
+    padding: auto;
+    margin: auto;
+  }
+}
